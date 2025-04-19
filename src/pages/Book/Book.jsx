@@ -22,8 +22,8 @@ const Book = ({ singleBook }) => {
 
                     <div className="flex justify-center gap-5">
                         {
-                            tags.map((tag) => <button className="">{tag}</button>)
-                        }
+                            tags.map((tag, index) => <button key={index}>{tag}</button>)
+                        }=""
                     </div>
 
                     <div className="flex gap-3">

@@ -4,8 +4,8 @@ import { Link } from 'react-router';
 const Navbar = () => {
     const links = <>
         <Link to ='/'><li className='m-3 text-xl'>Home</li></Link>
-        <Link to = './about'><li className='m-3 text-xl'>Listed Books</li></Link>
-        <li className='m-3 text-xl'>Pages to Read</li>
+        <Link to = './readList'><li className='m-3 text-xl'>Listed Books</li></Link>
+        <Link to=''><li className='m-3 text-xl'>Pages to Read</li></Link>
     </>
     return (
         <div className="navbar py-3">
